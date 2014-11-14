@@ -19,6 +19,26 @@ body {
     padding-right: 110px;
 	}
 
+background {
+    color: #E0ECF8
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 60px;
+    background-color: #E0ECF8;
+}
+
 h1 {
     font: italic normal 1.8em Ariel, sans-serif;
 	letter-spacing: 2px; 

@@ -8,58 +8,77 @@
 	
 html {
 	margin: auto;
-	padding: 0;
-	}
+	padding: 300px;
+}
+
 body { 
 	font: 90% Arial;
 	line-height: 1.8;
 	color: #000000; 
 	margin: auto; 
-	padding-left: 10px;
-    padding-right: 110px;
-	}
+    background-color: #E0E0E0;
+	padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
 
-background {
-    color: #E0ECF8
-
-ul {
+nav ol {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    width: 800px;
+    margin: auto;
+    text align: centre;
 }
 
-li {
-    float: left;
+nav ol li {
+    display: inline;
+    color: white;
+    margin: 20px;
 }
-
-a {
-    display: block;
-    width: 60px;
-    background-color: #E0ECF8;
+    
+nav ol li a {
+    text-decoration: none;
+    color: blue;
+    font family: Ariel, sans-serif;
+    font-size: 30px;
+}
+    
+nav ol li a:hover {
+    text-decoration: none;
+    color: #997A3D;
+    font family: arial, sans-serif;
 }
 
 h1 {
-    font: italic normal 1.8em Ariel, sans-serif;
-	letter-spacing: 2px; 
-	margin-bottom: 1; 
-	color: #997A3D;
-    font
+    font: italic normal 1.8em Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 1;
+    color: #997A3D;
 }
+    
+h2 {
+    font: italic normal 1.8em Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 1;
+    color: #997A3D;
+}
+    
+h3 {
+    font: italic normal 1.8em Arial, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 1;
+    color: #997A3D;
+}
+    
+    
 p { 
 	margin-top: left; 
 	text-align: justify;
     padding: left;
 	}
-h3 { 
-	font: italic normal 1.8em Ariel, sans-serif;
-	letter-spacing: 2px; 
-	margin-bottom: 1; 
-	color: #997A3D;
-	}
 
 .page-wrapper { 
-	background: url(zen-bg.jpg) no-repeat top left; 
+	background: #997A3D no-repeat top left; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
@@ -83,7 +102,6 @@ header h1 {
 	overflow: hidden;
 	}
 header h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
 	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
@@ -112,13 +130,6 @@ header {
 	margin-bottom: 40px;
 	}
 
-footer { 
-	text-align: center; 
-	}
-footer a:link, footer a:visited { 
-	margin-right: 20px; 
-	}
-
 .table, th, td {
     border: 2px solid grey;
     border-collapse: collapse;
@@ -131,47 +142,8 @@ th, td {
     float: up
 }
 
-.sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
-.sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}
-.sidebar h3.select { 
-	background: transparent url(h3.gif) no-repeat top left; 
-	margin: 10px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-
-.sidebar li {
-	line-height: 1.8em; 
-	background: transparent url(cr1.gif) no-repeat top center; 
-	display: inline-block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
-	list-style-type: none;
-	}
-.sidebar li a:link {
-	color: #988F5E;
-	}
-.sidebar li a:visited {
-	color: #B3AE94;
-	}
-
 .extra1 {
-	background: transparent url(cr2.gif) top left no-repeat; 
+	background: #000000; 
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
@@ -179,5 +151,10 @@ th, td {
 	height: 110px;
 	}
 
-.footer {
+. footer {
 font: 10px Ariel;
+position: right;
+    
+. footer { 
+	text-align: center; 
+	}

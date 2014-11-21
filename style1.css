@@ -9,6 +9,7 @@
 html {
 	margin: auto;
 	padding: 200px;
+    background-color: #FF0000;
 }
 
 body { 
@@ -23,25 +24,25 @@ body {
     padding-bottom: 50px; 
 } 
 
-
 nav ol {
     list-style-type: none;
-    width: 800px;
+    width: 700px;
     margin: auto;
     text-align: centre;
+    background-color: #B2C2B2;
+    border-radius: 15px;
 }
 
 nav ol li {
     display: inline;
-    color: white;
     margin: 20px;
 }
     
 nav ol li a {
     text-decoration: none;
-    color: blue;
+    color: black;
     font-family: Ariel, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
 }
     
 nav ol li a:hover {
@@ -126,6 +127,10 @@ th, td {
 	}
 
 . footer {
-font: 10px Ariel;
-position: right;
-list-style-type: none;
+    font: 10px Ariel;
+    position: right;
+    list-style-type: none;
+    
+img {
+    border-radius: 15px; 
+    }

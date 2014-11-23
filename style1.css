@@ -16,12 +16,12 @@ body {
 	font: 90% Arial;
 	line-height: 1.8;
 	color: #000000; 
-	margin: auto; 
+	margin: auto;  
     background-color: #E0E0E0;
 	padding-left: 300px;
     padding-right: 300px;
     padding-top: 50px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;   
 } 
 
 nav ol {
@@ -51,6 +51,10 @@ nav ol li a:hover {
     font-family: arial, sans-serif;
 }
 
+img {
+    border-radius: 15px;
+}
+
 h1 {
     font: italic normal 1.8em Arial, sans-serif;
     letter-spacing: 2px;
@@ -78,33 +82,6 @@ p {
     padding: left;
 	}
 
-header h1 { 
-	background: transparent url(h1.gif) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-
-header h2 { 
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 18px; 
-	float: right;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header {
-	padding-bottom: 100px;
-	height: 50px;
-}
-
 .table, th, td {
     border: 2px solid grey;
     border-collapse: collapse;
@@ -114,23 +91,11 @@ header {
 th, td {
     padding: 8px;
     right: 0;
-    float: up
+    float: up;
 }
-
-.extra1 {
-	background: #000000; 
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 1px; 
-	height: 110px;
-	}
 
 . footer {
     font: 10px Ariel;
-    position: right;
+    padding-left: 300px;
     list-style-type: none;
-    
-img {
-    border-radius: 15px; 
-    }
+}

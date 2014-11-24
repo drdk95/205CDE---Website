@@ -31,6 +31,7 @@ nav ol {
     text-align: centre;
     background-color: #B2C2B2;
     border-radius: 15px;
+    position:
 }
 
 nav ol li {
@@ -53,6 +54,8 @@ nav ol li a:hover {
 
 img {
     border-radius: 15px;
+    float:
+    padding-left: 5px;
 }
 
 h1 {

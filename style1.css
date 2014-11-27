@@ -9,7 +9,6 @@
 html {
 	margin: auto;
 	padding: 200px;
-    background-color: #FF0000;
 }
 
 body { 
@@ -18,20 +17,19 @@ body {
 	color: #000000; 
 	margin: auto;  
     background-color: #E0E0E0;
-	padding-left: 300px;
-    padding-right: 300px;
+	padding-left: 200px;
+    padding-right: 200px;
     padding-top: 50px;
     padding-bottom: 50px;   
 } 
 
 nav ol {
     list-style-type: none;
-    width: 700px;
+    width:
     margin: auto;
-    text-align: centre;
+    text-align: center;
     background-color: #B2C2B2;
-    border-radius: 15px;
-    position:
+    border-radius: 100px;
 }
 
 nav ol li {
@@ -49,13 +47,19 @@ nav ol li a {
 nav ol li a:hover {
     text-decoration: none;
     color: #997A3D;
-    font-family: arial, sans-serif;
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    background-color: #F8F8F8; 
+    padding: 20px;
+    border-radius: 50px;    
 }
 
 img {
     border-radius: 15px;
-    float:
     padding-left: 5px;
+    float: up;
 }
 
 h1 {
@@ -97,8 +101,11 @@ th, td {
     float: up;
 }
 
-. footer {
-    font: 10px Ariel;
-    padding-left: 300px;
+#footer {
+    font-family: Ariel, sans-serif;
+    background-color: #F8F8F8; 
+    padding: 20px;
+    border-radius: 50px;
     list-style-type: none;
+    text-align: center;
 }
